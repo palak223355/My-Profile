@@ -43,7 +43,7 @@ background-color:white;
 	justify-content:center;
 	padding:40px;
 	margin:40px;
-	width:100vw;
+	width:80vw;
 	
 
 }
@@ -146,6 +146,8 @@ margin-top:20px;
 border-radius:10px;
 color:#92400E;
 font-weight:bold;
+margin-bottom:20px;
+
 }
 .box{
 display:flex;
