@@ -10,14 +10,14 @@
 <body>
 <header class="main">
 <h1 class="heading"> Palak singh</h1>
-<nav class="nav-main">
+<nav class="nav-main show"  id="navMenu">
 <a href="#">Home</a>
 <a href="#">About</a>
 <a href="#">Skills</a>
 <a href="#">Projects</a>
 <a href="#">Contact</a>
 </nav>
-<div class="hello">&#9776</div>
+<div class="hello" onclick="togglemenu()">&#9776</div>
 </header>
 <section class="about-container">
 <div class="about-main">
@@ -115,5 +115,11 @@ I’m building my own digital world one step at a time.</p>
 <hr></hr>
 <p class="note">©2025 Palak.All Rights reserved.<a href="https://srgeducation.in/">[SRGeducation]</a></p>
 </footer>
+<script>
+        function toggleMenu() {
+            document.getElementById("navMenu").classList.toggle("show");
+        }
+ </script>
+
 </body>
 </html>
