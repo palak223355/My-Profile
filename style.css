@@ -1,6 +1,7 @@
 *{
 padding:0;
-margin:0;		
+margin:0;
+box-sizing:border-box;		
 }
 .main{
 display:flex;
@@ -30,61 +31,43 @@ text-decoration:none;
 	color:white;
 	font-size:40px;
 }
-@media screen and (max-width:768px){
-	.nav-main a {
-		display:none;
-	}
-.about-container{
-
-	flex-wrap:wrap;
-}	
-.footer{
-	display:flex;
-	flex-direction:column;
-	margin-left:10%;
-	margin-right:10%;
-}
-.div{
-	margin-right:80%;
-	
-}
-}
-@media screen and (min-width:768px){
-	.hello{
-display:none;
-	}	
-}
 
 body{
-background-color:#white;
-	
+background-color:white;
+	width:100vw;
 
 }
 .about-container{
-	background-color:#Fef3c7;
-	border-radius:20px;
-	width:700px;
+	
+	display:flex;
+	justify-content:center;
 	padding:40px;
 	margin:40px;
-	margin-left:20%;
-	border:3px solid #92400E;
-	transition:box-shadow 0.3 ease;
-	flex:1;
-}.about-container:hover{
-	box-shadow:0 0 15px rgba(59,130,246,0.4);
+	width:100vw;
+	
+
 }
-
-
 .about-main{
+	
 	display:flex;
 	gap:20px;
-	
+border:3px solid #92400E;
+background-color:#Fef3c7;
+padding:40px;
+border-radius:10px;
+transition:box-shadow 0.3 ease;
+
+
+}.about-main:hover{
+	box-shadow:0 0 15px rgba(59,130,246,0.4);
 	
 }
 .about{
-	
+	display:flex;
 	color:#92400E;
 	font-weight:bold;
+	flex-direction:column;
+
 }
 img{
 	width:150px;
@@ -98,6 +81,8 @@ img{
 	padding:10px;
 	color:white;
 	font-weight:bold;
+	width:200px;
+	text-align:center;
 }
 .code{
 	border-left:2px solid navy;
@@ -305,13 +290,6 @@ form{
 	gap:20px;
 	padding-top:20px;
 }
-.div{
-	background-color:#92400e;
-	padding:20px;
-	border-radius:20px;
-	width:500px;
-	margin-left:30%;
-}
 
 
 .input1, .input2{
@@ -333,18 +311,18 @@ padding:10px;
 .paragraph{
 	font-size:20px;
 	text-align:center;
-	color:#fdfbd4;
+	color:brown;
 }
 .headingget{
-	color:#fef3c7;
+	color:brown;
 	font-weight:bold;
 	font-size:30px;
 	text-align:center;
 	padding:10px;
 }
 .button{
-	background-color:#fef3c7;
-	color:brown;
+	background-color:brown;
+	color:#Fef3c7;
 	font-weight:bold;
 	padding:10px;
 	border-radius:10px;
@@ -420,4 +398,45 @@ padding:5px;
 	padding-bottom:30px;
 	font-weight:bold;
 	font-size:20px;
+}
+
+@media screen and (max-width:768px){
+	.nav-main a {
+		display:none;
+	}
+.about-container{
+	width:400px;
+}
+.about-main{
+	display:flex;
+	flex-direction:column;
+
+
+}
+
+img{
+max-width:100%;	
+}
+.footer{
+	display:flex;
+	flex-direction:column;
+	margin-left:10%;
+	margin-right:10%;
+}
+.main{
+	width:478px;
+	
+}
+.about-main{
+	width:100vw;
+}
+
+}
+@media screen and (min-width:768px){
+	.hello{
+display:none;
+	}
+.about-main{
+	width:60vw;
+}	
 }
