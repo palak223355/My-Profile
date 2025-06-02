@@ -43,7 +43,7 @@ background-color:white;
 	justify-content:center;
 	padding:40px;
 	margin:40px;
-	width:60vw;
+	width:100vw;
 	
 
 }
@@ -72,7 +72,7 @@ transition:box-shadow 0.3 ease;
 img{
 	width:150px;
 	border:10px solid white;
-	transform:rotate(3deg);
+	
 	
 }
 .anchor{
@@ -428,6 +428,9 @@ max-width:100%;
 .main{
 	width:478px;
 	
+}
+.about-container{
+	width:80vw;
 }
 .about-main{
 	width:100vw;
