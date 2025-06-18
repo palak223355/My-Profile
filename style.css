@@ -55,7 +55,6 @@ padding:40px;
 border-radius:10px;
 transition:box-shadow 0.3 ease;
 
-
 }.about-main:hover{
 	box-shadow:0 0 15px rgba(59,130,246,0.4);
 	
