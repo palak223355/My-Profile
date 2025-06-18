@@ -343,6 +343,18 @@ padding-top:15px;
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.skill-box:hover {
+  animation: bounce 0.3s ease;
+}
 
 .skill2{
 width:250px;
@@ -357,7 +369,7 @@ box-shadow: 4px 4px 0px #a1662f;
 }
 }.skill2:hover{
 	transform:scale(1.1);
-  background-color: #ffe8a1;
+background-color: #ffe8a1;
   transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
