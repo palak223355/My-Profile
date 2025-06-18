@@ -363,6 +363,7 @@ background-color:#Fef3c7;
 border-radius:20px;
 padding:6px;
 padding-top:15px;
+	border-radius:15px;
 box-shadow: 4px 4px 0px #a1662f;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
