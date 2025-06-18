@@ -36,11 +36,6 @@ text-decoration:none;
 	font-size:40px;
 }
 
-body{
-background-color:white;
-	width:100vw;
-
-}
 .about-container{
 	
 	display:flex;
@@ -48,7 +43,7 @@ background-color:white;
 	padding:40px;
 	margin:40px;
 	width:100vw;
-	background-color:#d2b48c;
+	
 
 }
 .about-main{
