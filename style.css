@@ -255,7 +255,7 @@ box-shadow:4px 6px  5px #Fef3c7;
   opacity: 0;
   animation: slideInBox 0.8s ease-out forwards;
 }.box:hover{
-	  transform:translatex(1.2);
+	    transform: scale(1.05);
 }
 @keyframes slideInBox {
   from {
