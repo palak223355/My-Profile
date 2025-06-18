@@ -363,18 +363,21 @@ background-color:#Fef3c7;
 border-radius:20px;
 padding:6px;
 padding-top:15px;
-	border-radius:15px;
-box-shadow: 4px 4px 0px #a1662f;
+  border-radius: 15px;
+  box-shadow: 4px 4px 0px #a1662f;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-}.skill2:hover{
+.skill2:hover{
 	transform:scale(1.1);
-background-color: #ffe8a1;
+  background-color: #ffe8a1;
   transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
-}		
+}
+
+
+
 
 .skill3{
 width:250px;
