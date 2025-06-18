@@ -255,7 +255,10 @@ box-shadow:4px 6px  5px #Fef3c7;
   opacity: 0;
   animation: slideInBox 0.8s ease-out forwards;
 }.box:hover{
-	    transform: scale(1.05);
+	   transform: scale(1.05);
+  background-color: #ba6513; /* Lighten brown on hover */
+  color: #fff7e6; /* Light text color */
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 @keyframes slideInBox {
   from {
