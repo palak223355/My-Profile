@@ -45,6 +45,16 @@ text-decoration:none;
 	
 
 }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .about-main{
 	
 	display:flex;
@@ -55,6 +65,7 @@ padding:40px;
 border-radius:10px;
 transition:box-shadow 0.3 ease;
   transition: all 0.4s ease-in-out;
+	animation: fadeInUp 1s ease-out;
 }.about-main:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   transform: translateY(-5px) scale(1.02);
