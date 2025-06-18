@@ -318,46 +318,47 @@ h4{
 	color:#92400E;
 	margin-bottom:5px;
 	  transition: color 0.3s ease, transform 0.3s ease;
+  color: #8b4513;
+  margin-bottom: 8px;
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+/* h4 hover effect */
+h4:hover {
+  color: #d2691e;
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px #a0522d;
+  animation: h4Bounce 0.4s ease-in-out;
 }
 
+/* h4 animation */
+@keyframes h4Bounce {
+  0% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.1) translateY(-5px); }
+  100% { transform: scale(1.1) translateY(0); }
+}
 h5{
 	text-align:center;
 	font-size:15px;
 	font-weight:bold;
 	color:black;
 	margin-bottom:5px;
-	  transition: color 0.3s ease, transform 0.3s ease;
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
-/* Animation on hover - box + text */
-.skill-box:hover {
-  background-color: #ffe8a1;
-  box-shadow: 6px 6px 0px #804000;
-  animation: scaleBounce 0.4s ease-in-out forwards;
 }
-
-h2:hover {
+/* h5 hover effect */
+h5:hover {
   color: #d2691e;
   transform: scale(1.1);
-  text-shadow: 1px 1px 2px #a0522d;
+  text-shadow: 1px 1px 3px #a0522d;
+  animation: h4Bounce 0.4s ease-in-out;
 }
 
-h5:hover  {
-  color: #5a3e2b;
-  transform: translateY(-2px);
+/* h5 animation */
+@keyframes h4Bounce {
+  0% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.1) translateY(-5px); }
+  100% { transform: scale(1.1) translateY(0); }
 }
-
-/* Bounce keyframe for subtle lift */
-@keyframes scaleBounce {
-  0% {
-    transform: scale(1) translateY(0);
-  }
-  50% {
-    transform: scale(1.05) translateY(-8px);
-  }
-  100% {
-    transform: scale(1.05) translateY(0);
-  }
-	}
 .skill1{
 width:250px;
 height:100px;	
