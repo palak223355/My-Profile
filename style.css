@@ -4,8 +4,9 @@ margin:0;
 box-sizing:border-box;		
 }
 body{
-background-color:#d2b48c;
+background-color: #f3e8ff;
 }
+
 .main{
 display:flex;
 background-color:navy;
