@@ -250,11 +250,30 @@ height:200px;
 background-color:#92400E;
 border-radius:20px;
 padding:10px;
-box-shadow:4px 6px  5px #Fef3c7;	
-}.box:hover{
-	transform:scale(1.1);
-	
+box-shadow:4px 6px  5px #Fef3c7;
+	transition: all 0.4s ease-in-out;
+  opacity: 0;
+  animation: slideInBox 0.8s ease-out forwards;
 }
+@keyframes slideInBox {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.box:nth-child(1) { animation-delay: 0.2s; }
+.box:nth-child(2) { animation-delay: 0.4s; }
+.box:nth-child(3) { animation-delay: 0.6s; }
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
 .my-skills{
 	
 	padding:10px;
