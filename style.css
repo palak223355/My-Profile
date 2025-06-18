@@ -82,10 +82,76 @@ img{
 	border:10px solid white;
 border-radius: 10px;
   transition: transform 0.4s ease, box-shadow 0.4s ease;	
-}img:hover {
+}.about > * {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInText 0.6s ease-out forwards;
+}
+
+.about > *:nth-child(1) { animation-delay: 0.2s; }
+.about > *:nth-child(2) { animation-delay: 0.4s; }
+.about > *:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes slideInText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional: On hover, glow effect */
+.about > *:hover {
+  color: #ba6513;
+  text-shadow: 0 0 5px rgba(146, 64, 14, 0.5);
+  transition: all 0.3s ease;
+}
+🔸 Effect:
+
+Jab page load hoga to text ek-ek karke slide-in karega
+
+Hover par text thoda glow karega (brownish)
+
+🧑‍💻 Add This All in Your style.css
+Final Summary (copy–paste ready):
+css
+Copy
+Edit
+/* Image Hover */
+img {
+  width: 150px;
+  border: 10px solid white;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
+
+/* Text Animate + Hover */
+.about > * {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideInText 0.6s ease-out forwards;
+}
+
+.about > *:nth-child(1) { animation-delay: 0.2s; }
+.about > *:nth-child(2) { animation-delay: 0.4s; }
+.about > *:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes slideInText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about > *:hover {
+  color: #ba6513;
+  text-shadow: 0 0 5px rgba(146, 64, 14, 0.5);
+  transition: all 0.3s ease;
+}
+
 .anchor{
 	background-color:#92400E;
 	border-radius:10px;
