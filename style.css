@@ -533,7 +533,7 @@ padding:5px;
 
 img{
 max-width:100%;	
-	margin:0 auto ;
+	margin-left:50px;
 }
 .footer{
 	display:flex;
