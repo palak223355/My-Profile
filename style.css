@@ -4,6 +4,7 @@ margin:0;
 box-sizing:border-box;		
 }
 body{
+	width:100vw;
 background-color:#e0c1a0;	
 }
 .main{
@@ -47,7 +48,7 @@ background-color:white;
 	padding:40px;
 	margin:40px;
 	width:100vw;
-	background-color:#e0c1a0;
+	background-color:#d2b48c;
 
 }
 .about-main{
