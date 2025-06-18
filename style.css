@@ -316,15 +316,48 @@ h4{
 	font-size:22px;
 	font-weight:bold;
 	color:#92400E;
-	margin-bottom:5px;	
+	margin-bottom:5px;
+	  transition: color 0.3s ease, transform 0.3s ease;
 }
+
 h5{
 	text-align:center;
 	font-size:15px;
 	font-weight:bold;
 	color:black;
 	margin-bottom:5px;
+	  transition: color 0.3s ease, transform 0.3s ease;
 }
+/* Animation on hover - box + text */
+.skill-box:hover {
+  background-color: #ffe8a1;
+  box-shadow: 6px 6px 0px #804000;
+  animation: scaleBounce 0.4s ease-in-out forwards;
+}
+
+h2:hover {
+  color: #d2691e;
+  transform: scale(1.1);
+  text-shadow: 1px 1px 2px #a0522d;
+}
+
+h5:hover  {
+  color: #5a3e2b;
+  transform: translateY(-2px);
+}
+
+/* Bounce keyframe for subtle lift */
+@keyframes scaleBounce {
+  0% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.05) translateY(-8px);
+  }
+  100% {
+    transform: scale(1.05) translateY(0);
+  }
+	}
 .skill1{
 width:250px;
 height:100px;	
