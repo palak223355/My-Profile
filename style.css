@@ -263,7 +263,7 @@ box-shadow:4px 6px  5px #Fef3c7;
   opacity: 0;
   animation: slideInBox 0.8s ease-out forwards;
 }.box:hover{
-	   transform: scale(1.05);
+	   transform: scale(1.1);
   background-color: #ba6513; /* Lighten brown on hover */
   color: #fff7e6; /* Light text color */
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
@@ -374,7 +374,6 @@ padding-bottom:50px;
 }.skill1:hover{
 	transform:scale(1.1);
   background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
@@ -406,8 +405,6 @@ padding-top:15px;
 }
 .skill2:hover{
 	transform:scale(1.1);
-  background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
@@ -429,7 +426,6 @@ box-shadow: 4px 4px 0px #a1662f;
 }.skill3:hover{
 	transform:scale(1.1);
 	  background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
@@ -447,7 +443,6 @@ box-shadow: 4px 4px 0px #a1662f;
 }.skill4:hover{
 	transform:scale(1.1);
 	background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
@@ -465,7 +460,6 @@ box-shadow: 4px 4px 0px #a1662f;
 }.skill5:hover{
 	transform:scale(1.1);
 	background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
@@ -483,7 +477,6 @@ box-shadow: 4px 4px 0px #a1662f;
 }.skill6:hover{
 	transform:scale(1.1);
 		background-color: #ffe8a1;
-  transform: scale(1.05);
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
