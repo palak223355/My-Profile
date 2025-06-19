@@ -503,13 +503,13 @@ background-color: #92400E;
   font-size: 16px;
 }
 
-.form-box button {
+.form-box ,.button {
   display: block;
   width: 100%;
   padding: 12px;
   margin-top: 15px;
   background-color: #92400E;
-  color: white;
+  color: yellow;
   text-align: center;
   text-decoration: none;
   border-radius: 8px;
@@ -517,7 +517,7 @@ background-color: #92400E;
   transition: background-color 0.3s ease;
 }
 
-.form-box a:hover {
+.form-box ,.button:hover {
   background-color: #92400E;
 }
 
@@ -543,7 +543,7 @@ form{
 
 /* Animate form-box on load */
 .form-box {
-  background-color: #5C2E00;
+  background-color: #92400E;
   color: yellow;
   padding: 30px;
   border-radius: 15px;
