@@ -480,11 +480,46 @@ box-shadow: 4px 4px 0px #a1662f;
 
 
 .form{
-	background-color:#fef3c7;
-	padding:40px;
-	padding-top:6%;
-	padding-bottom:6%;
-	
+	  background-color: #FFF2CC;
+  padding: 50px 20px;
+}
+
+.form-box {
+  background-color: #FBE8E7; /* soft light pink shade */
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Make sure form inputs look clean too */
+.form-box input,
+.form-box input3 {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-box button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #991B1B; /* matches your red tone */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-box a:hover {
+  background-color: #7C1616;
 }
 
 form{
