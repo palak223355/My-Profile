@@ -318,7 +318,6 @@ h4{
 	color:#92400E;
 	margin-bottom:5px;
 	  transition: color 0.3s ease, transform 0.3s ease;
-  color: #8b4513;
   margin-bottom: 8px;
   transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
@@ -485,7 +484,7 @@ box-shadow: 4px 4px 0px #a1662f;
 }
 
 .form-box { 
-background-color: #5C2E00; 
+background-color: #92400E; 
   padding: 30px;
   border-radius: 15px;
   max-width: 600px;
@@ -562,8 +561,8 @@ padding:10px;
 	padding:10px;
 }
 .button{
-	background-color:brown;
-	color:#Fef3c7;
+	background-color: #Fef3c7;
+	color:#92400E;
 	font-weight:bold;
 	padding:10px;
 	border-radius:10px;
