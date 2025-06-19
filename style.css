@@ -503,7 +503,7 @@ background-color: #92400E;
   font-size: 16px;
 }
 
-.form-box ,.button {
+.form-box {
   display: block;
   width: 100%;
   padding: 12px;
@@ -518,7 +518,8 @@ background-color: #92400E;
 }
 
 .form-box ,.button:hover {
-  background-color: #92400E;
+  background-color: #7C1616; /* Deep maroon-red */
+  color: #FFD700; /* Gold text for contrast */
 }
 
 form{
