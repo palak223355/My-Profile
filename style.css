@@ -484,8 +484,8 @@ box-shadow: 4px 4px 0px #a1662f;
   padding: 50px 20px;
 }
 
-.form-box {
-  background-color: #FBE8E7; /* soft light pink shade */
+.form-box { 
+background-color: #5C2E00; 
   padding: 30px;
   border-radius: 15px;
   max-width: 600px;
@@ -551,10 +551,11 @@ padding:10px;
 .paragraph{
 	font-size:20px;
 	text-align:center;
-	color:brown;
+       color:#Fef3c7;
+	
 }
 .headingget{
-	color:brown;
+	color:#Fef3c7;
 	font-weight:bold;
 	font-size:30px;
 	text-align:center;
