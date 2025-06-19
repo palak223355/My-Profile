@@ -341,7 +341,7 @@ h5{
 	font-size:15px;
 	font-weight:bold;
 	color:black;
-	margin-bottom:10px;
+	margin-bottom:5%;
   transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
 /* h5 hover effect */
