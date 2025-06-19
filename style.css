@@ -508,7 +508,7 @@ background-color: #92400E;
   width: 100%;
   padding: 12px;
   margin-top: 15px;
-  background-color: lightbrown; /* matches your red tone */
+  background-color: #92400E;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -518,7 +518,7 @@ background-color: #92400E;
 }
 
 .form-box a:hover {
-  background-color: #7C1616;
+  background-color: #92400E;
 }
 
 form{
