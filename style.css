@@ -529,7 +529,52 @@ form{
 	gap:20px;
 	padding-top:20px;
 }
+/* ----------- Fade + Slide In Animation ----------- */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+/* Animate form-box on load */
+.form-box {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0; /* ensure initial hidden */
+  animation-delay: 0.3s;
+}
+
+/* Heading animation + hover effect */
+.headingget {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+  animation-delay: 0.6s;
+  transition: all 0.3s ease;
+}
+
+.headingget:hover {
+  color: #FFD700; /* gold tone */
+  letter-spacing: 1px;
+  transform: scale(1.05);
+}
+
+/* Paragraph animation + hover */
+.form-box ,paragraph {
+  animation: fadeInUp 1.2s ease-out forwards;
+  opacity: 0;
+  animation-delay: 0.9s;
+  transition: all 0.3s ease;
+}
+
+.form-box , paragraph:hover {
+  color: #FFF176; /* soft yellow */
+  transform: translateY(-4px);
+  letter-spacing: 0.5px;
+}
 
 .input1, .input2{
 	width:300px;
