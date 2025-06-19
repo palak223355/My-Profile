@@ -344,7 +344,6 @@ h5{
 	margin-bottom:5px;
   transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
-}
 /* h5 hover effect */
 h5:hover {
   color: #d2691e;
@@ -405,6 +404,7 @@ padding-top:15px;
 }
 .skill2:hover{
 	transform:scale(1.1);
+	background-color: #ffe8a1;
   box-shadow: 6px 6px 0px #804000;
   color: #4b2e1e;
 }
