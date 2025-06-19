@@ -341,24 +341,26 @@ h5{
 	font-size:15px;
 	font-weight:bold;
 	color:black;
-	margin-bottom:10%;
-
+	margin-bottom:2%;
 padding-bottom:10px;
   transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
+
+
 /* h5 hover effect */
 h5:hover {
   color: #d2691e;
   transform: scale(1.1);
   text-shadow: 1px 1px 3px #a0522d;
-  animation: h4Bounce 0.4s ease-in-out;
+  transform: translateY(-2px);
+  animation: h5SlideUp 0.4s ease-in-out;
 }
 
 /* h5 animation */
-@keyframes h4Bounce {
-  0% { transform: scale(1) translateY(0); }
-  50% { transform: scale(1.1) translateY(-5px); }
-  100% { transform: scale(1.1) translateY(0); }
+@keyframes h5SlideUp {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
 }
 .skill1{
 width:250px;
