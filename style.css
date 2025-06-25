@@ -708,7 +708,7 @@ padding:5px;
   display: none;
   flex-direction: column;
   gap: 10px;
-	  background-color: white
+	  background-color: Green;
 }
 
 /* When 'show' is toggled, display menu */
