@@ -701,15 +701,28 @@ padding:5px;
 }
 
 @media screen and (max-width:768px){
-	.nav-main a {
-		display:none;
+
+
+/* Hide menu by default (mobile) */
+.nav-main {
+  display: none;
   flex-direction: column;
-  background-color: white; /* Optional */
+  gap: 10px;
+	  background-color: white
 }
 
+/* When 'show' is toggled, display menu */
 .nav-main.show {
   display: flex;
 }
+
+/* Show hamburger (☰) icon on small screens */
+.hello {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 
 .about-container{
 	width:400px;
