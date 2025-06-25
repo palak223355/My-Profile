@@ -703,7 +703,14 @@ padding:5px;
 @media screen and (max-width:768px){
 	.nav-main a {
 		display:none;
-	}
+  flex-direction: column;
+  background-color: white; /* Optional */
+}
+
+.nav-main.show {
+  display: flex;
+}
+
 .about-container{
 	width:400px;
 }
