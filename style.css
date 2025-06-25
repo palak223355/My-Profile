@@ -710,8 +710,8 @@ padding:5px;
     background-color: white;
     position: absolute;
     top: 70px; /* adjust if needed */
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 50%;
     padding: 10px;
     z-index: 1000;
     text-align: center;
