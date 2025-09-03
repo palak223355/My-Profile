@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Calculator</title>
+<title>Responsive Calculator</title>
 <style>
     body {
       display: flex;
@@ -9,13 +9,16 @@
       height: 100vh;
       background: linear-gradient(135deg, #4facfe, #00f2fe);
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
     .calculator {
       background: #01153e;
       padding: 20px;
       border-radius: 16px;
       box-shadow: 0px 6px 15px rgba(0,0,0,0.3);
-      width: 320px;
+      width: 90%;
+      max-width: 400px; /* Desktop max width */
     }
     #screen {
       width: 100%;
@@ -27,6 +30,7 @@
       border: 3px solid #FFdd44;
       border-radius: 8px;
       background: #fff;
+      box-sizing: border-box;
     }
     .row {
       display: flex;
@@ -83,6 +87,38 @@
     }
     .delete:hover {
       background: #0066cc;
+    }
+
+    /* 📱 Mobile Responsive */
+    @media (max-width: 480px) {
+      .calculator {
+        max-width: 95%;
+        padding: 15px;
+      }
+      #screen {
+        height: 60px;
+        font-size: 22px;
+      }
+      button {
+        font-size: 18px;
+        padding: 12px;
+        margin: 4px;
+      }
+    }
+
+    /* 📱 Tablet Responsive */
+    @media (max-width: 768px) and (min-width: 481px) {
+      .calculator {
+        max-width: 80%;
+      }
+      #screen {
+        font-size: 26px;
+        height: 70px;
+      }
+      button {
+        font-size: 20px;
+        padding: 14px;
+      }
     }
 </style>
 </head>
