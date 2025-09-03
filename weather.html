@@ -6,64 +6,88 @@
   <title>Weather App</title>
   <style>
    body {
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);  /* Aqua + Blue gradient */
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+      background: linear-gradient(135deg, #89f7fe, #66a6ff);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+    }
 
-.main {
-  background: rgba(255, 255, 255, 0.15);   /* Transparent white */
-  backdrop-filter: blur(15px);             /* Glass effect */
-  border-radius: 20px;
-  padding: 40px 35px;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-  color: #fff;
-  text-align: center;
-  max-width: 400px;
-  width: 100%;
-}
+    .main {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 30px 25px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      color: #fff;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;  /* responsive */
+    }
 
-h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  font-weight: bold;
-  color: #ffffff;
-}
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      font-weight: bold;
+      color: #ffffff;
+    }
 
+    input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      margin-bottom: 12px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
 
-p{
-font-size:20px;
+    button {
+      width: 100%;   /* input जितना चौड़ा */
+      padding: 8px;  /* slim height */
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #36d1dc, #5b86e5);
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-sizing: border-box;
+    }
 
-}
-input {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  outline: none;
-  margin-bottom: 15px;
-  font-size: 16px;
-}
+    button:hover {
+      background: linear-gradient(135deg, #5b86e5, #36d1dc);
+      transform: scale(1.03);
+    }
 
-button {
-  padding: 12px 25px;
-  border: none;
-  border-radius: 10px;
-  background: linear-gradient(135deg, #36d1dc, #5b86e5); /* Cyan → Blue */
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s;
-}
+    #update-div {
+      margin-top: 15px;
+      text-align: left;
+      font-size: 16px;
+    }
 
-button:hover {
-  background: linear-gradient(135deg, #5b86e5, #36d1dc); /* Reverse gradient */
-  transform: scale(1.05);
-}
+    #update-div p {
+      margin: 6px 0;
+    }
 
+    /* 📱 Small screen के लिए */
+    @media (max-width: 500px) {
+      .main {
+        padding: 20px 15px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      input, button {
+        font-size: 14px;
+        padding: 8px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -106,8 +130,6 @@ button:hover {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
-
           if(data.cod !== 200){
             alert("City not found!");
             return;
@@ -126,9 +148,8 @@ button:hover {
           document.querySelector("#rain").innerText = data.rain ? data.rain["1h"] + " mm" : "0 mm";
           document.querySelector("#clouds").innerText = data.clouds.all;
         })
-        .catch((error) => {
+        .catch(() => {
           alert("Something went wrong!");
-          console.error(error);
         });
     }
 
@@ -136,5 +157,3 @@ button:hover {
   </script>
 </body>
 </html>
- 
-
