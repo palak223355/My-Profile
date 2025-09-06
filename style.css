@@ -99,24 +99,13 @@ border-radius: 10px;
   }
 }
 
-/* Optional: On hover, glow effect */
+
 .about > *:hover {
   color: #ba6513;
   text-shadow: 0 0 5px rgba(146, 64, 14, 0.5);
   transition: all 0.3s ease;
 }
-🔸 Effect:
 
-Jab page load hoga to text ek-ek karke slide-in karega
-
-Hover par text thoda glow karega (brownish)
-
-🧑‍💻 Add This All in Your style.css
-Final Summary (copy–paste ready):
-css
-Copy
-Edit
-/* Image Hover */
 img {
   width: 150px;
   border: 10px solid white;
@@ -128,7 +117,7 @@ img:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Text Animate + Hover */
+
 .about > * {
   opacity: 0;
   transform: translateY(30px);
@@ -167,8 +156,8 @@ img:hover {
 }
 
 .anchor:hover {
-  background-color: #ba6513; /* lighter brown on hover */
-  color: #fff7e6; /* soft cream text */
+  background-color: #ba6513; 
+  color: #fff7e6;
   transform: scale(1.05);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
@@ -264,8 +253,8 @@ box-shadow:4px 6px  5px #Fef3c7;
   animation: slideInBox 0.8s ease-out forwards;
 }.box:hover{
 	   transform: scale(1.1);
-  background-color: #ba6513; /* Lighten brown on hover */
-  color: #fff7e6; /* Light text color */
+  background-color: #ba6513; 
+  color: #fff7e6; 
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
 @keyframes slideInBox {
@@ -321,7 +310,7 @@ h4{
   margin-bottom: 8px;
   transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
 }
-/* h4 hover effect */
+
 h4:hover {
   color: #d2691e;
   transform: scale(1.1);
@@ -345,7 +334,7 @@ margin-bottom:10%;
 }
 
 
-/* h5 hover effect */
+
 h5:hover {
   color: #d2691e;
   transform: scale(1.1);
@@ -354,7 +343,7 @@ h5:hover {
   animation: h5SlideUp 0.4s ease-in-out;
 }
 
-/* h5 animation */
+
 @keyframes h5SlideUp {
   0% { transform: translateY(0); }
   50% { transform: translateY(-3px); }
@@ -492,7 +481,6 @@ background-color: #92400E;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Make sure form inputs look clean too */
 .form-box input,
 .form-box input3 {
   width: 100%;
@@ -518,8 +506,8 @@ background-color: #92400E;
 }
 
 .form-box ,.button:hover {
-  background-color: #7C1616; /* Deep maroon-red */
-  color: #FFD700; /* Gold text for contrast */
+  background-color: #7C1616; 
+  color: #FFD700;
 }
 
 form{
@@ -530,7 +518,7 @@ form{
 	gap:20px;
 	padding-top:20px;
 }
-/* ----------- Fade + Slide In Animation ----------- */
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
@@ -542,7 +530,6 @@ form{
   }
 }
 
-/* Animate form-box on load */
 .form-box {
   background-color: #92400E;
   color: yellow;
@@ -556,7 +543,7 @@ form{
   animation-delay: 0.3s;
 }
 
-/* Heading animation + hover effect */
+
 .headingget {
   animation: fadeInUp 1s ease-out forwards;
   opacity: 0;
@@ -566,12 +553,12 @@ form{
 }
 
 .headingget:hover {
-  color: #FFD700; /* gold tone */
+  color: #FFD700; 
   letter-spacing: 1px;
   transform: scale(1.05);
 }
 
-/* Paragraph with class "paragraph" */
+
 .paragraph {
   animation: fadeInUp 1.2s ease-out forwards;
   opacity: 0;
@@ -581,7 +568,7 @@ form{
 }
 
 .paragraph:hover {
-  color: #FFF176; /* soft yellow */
+  color: #FFF176; 
   transform: translateY(-4px);
   letter-spacing: 0.5px;
 }
@@ -701,15 +688,13 @@ padding:5px;
 }
 
 @media screen and (max-width:768px){
-
-
  .nav-main {
     display: none;
     flex-direction: column;
     gap: 10px;
     background-color: white;
     position: absolute;
-    top: 70px; /* adjust if needed */
+    top: 70px; 
     right: 0;
     width: 30%;
     padding: 10px;
@@ -723,7 +708,7 @@ padding:5px;
   }
 
   .nav-main a {
-    color: #92400E;  /* visible text */
+    color: #92400E;  
     font-weight: bold;
     padding: 10px;
     border-bottom: 1px solid #eee;
@@ -780,3 +765,4 @@ display:none;
 	width:60vw;
 }	
 }
+
