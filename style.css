@@ -63,13 +63,12 @@ header.main {
 
 /* Left Image Section */
 .about-main-left {
-  flex: 1;
-  max-width: 350px;  /* Fixed max width */
-  width: 100%;       /* Responsive width */
-  height: 350px;     /* Fixed height */
+  flex: 0 0 350px;      /* fixed width, flex-grow 0, flex-shrink 0 */
+  width: 350px;         /* fixed width */
+  height: 350px;        /* fixed height */
   background: url('./myphoto.jpg') no-repeat center center;
   background-size: cover;
-  border: 8px solid #fff; /* White border */
+  border: 8px solid #fff; /* white border */
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -77,6 +76,17 @@ header.main {
   transform: scale(1.03);
   box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 }
+
+/* Mobile responsive */
+@media(max-width: 768px) {
+  .about-main-left {
+    flex: 0 0 80%;      /* mobile me chhota */
+    width: 80%;
+    height: 250px;
+    margin: auto;
+  }
+}
+
 
 /* Right Text Section */
 .about-main-right {
@@ -317,3 +327,4 @@ footer {
     padding: 20px;
   }
 }
+
