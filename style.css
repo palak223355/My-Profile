@@ -302,7 +302,7 @@ footer {
   }
 
   .about-main-left, .about-main-right {
-    flex: 1 1 100%;
+    flex: 1 1 50%;
     text-align: center;
     padding: 20px;
   }
