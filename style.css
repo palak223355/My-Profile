@@ -59,64 +59,90 @@ footer {
 .about-container {
   display: flex;
   flex-wrap: wrap;
-  min-height: 300px;
-  background: #ffffff;
-  padding: 50px 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  gap: 20px;
+  padding: 40px 20px;
+  background: #fff;
   border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .about-main-left {
-  flex: 0 0 220px;
-  width: 220px;
-  height: 220px;
+  flex: 0 0 150px; /* smaller width */
+  width: 150px;
+  height: 150px; /* smaller height */
   background: url('./myphoto.jpg') no-repeat center center;
   background-size: cover;
   border-radius: 12px;
-  border: 4px solid #fff;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: auto; /* center in mobile view */
 }
 
 .about-main-left:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 .about-main-right {
   flex: 1;
-  padding: 20px 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .about-main-right h2 {
-  color: #002147;
-  font-weight: 700;
-  margin-bottom: 15px;
+  font-size: 22px;
+  color: #203a43;
+  margin-bottom: 12px;
 }
 
 .about-main-right p {
+  font-size: 15px;
   color: #555;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .about-main-right .anchor {
   display: inline-block;
-  padding: 12px 24px;
-  background: linear-gradient(45deg, #ffc107, #ff9800);
-  color: #00122b;
-  border-radius: 6px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: #fff;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .about-main-right .anchor:hover {
-  background: linear-gradient(45deg, #ff9800, #ffc107);
-  color: #fff;
+  background: linear-gradient(135deg, #feb47b, #ff7e5f);
   transform: scale(1.05);
+}
+
+/* Mobile Responsive */
+@media(max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .about-main-left {
+    width: 120px;
+    height: 120px;
+  }
+
+  .about-main-right {
+    padding: 15px;
+  }
+
+  .about-main-right h2 {
+    font-size: 20px;
+  }
+
+  .about-main-right p {
+    font-size: 14px;
+  }
 }
 
 /* Projects Section */
@@ -320,3 +346,4 @@ footer {
     text-align: center;
   }
 }
+
