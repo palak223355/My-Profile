@@ -87,7 +87,6 @@ header.main {
   }
 }
 
-
 /* Right Text Section */
 .about-main-right {
   flex: 1;
@@ -327,4 +326,5 @@ footer {
     padding: 20px;
   }
 }
+
 
