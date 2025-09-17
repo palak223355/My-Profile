@@ -64,11 +64,12 @@ header.main {
 /* Left Image Section */
 .about-main-left {
   flex: 1;
+  max-width: 350px;  /* Fixed max width */
+  width: 100%;       /* Responsive width */
+  height: 350px;     /* Fixed height */
   background: url('./myphoto.jpg') no-repeat center center;
   background-size: cover;
   border: 8px solid #fff; /* White border */
-  min-height: 400px;
-  position: relative;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -304,6 +305,12 @@ footer {
     flex: 1 1 100%;
     text-align: center;
     padding: 20px;
+  }
+
+  .about-main-left {
+    max-width: 80%; /* mobile me thoda chhota */
+    height: 250px;
+    margin: auto;
   }
 
   .about-main-right {
