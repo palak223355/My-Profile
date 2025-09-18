@@ -137,22 +137,68 @@ nav a:hover {
 
 /* Contact */
 .contact {
-  padding: 60px 0;
-  background: #2c3e50;
-  color: white;
+  padding: 80px 0;
+  background: #f9fafc;
   text-align: center;
 }
-.contact input, .contact textarea {
-  width: 100%;
-  max-width: 500px;
-  margin: 10px auto;
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #2c3e50;
 }
-.contact button {
+.contact .sub-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-box {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.contact-box form input,
+.contact-box form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.contact-box form input:focus,
+.contact-box form textarea:focus {
+  border-color: #f39c12;
+  box-shadow: 0 0 8px rgba(243,156,18,0.4);
+}
+
+.contact-box form textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+.contact-box button {
+  width: 100%;
+  padding: 14px;
   border: none;
+  border-radius: 8px;
+  background: #f39c12;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-box button:hover {
+  background: #d35400;
 }
 
 /* Footer */
@@ -206,3 +252,4 @@ footer {
     display: block;
   }
 }
+
