@@ -1,101 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Palak Singh - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palak Singh | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!-- Header -->
   <header>
-    <nav>
-      <div class="logo">Palak Singh</div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="menu-toggle">&#9776;</div>
-    </nav>
+    <div class="container header-container">
+      <h1 class="logo">Palak Singh</h1>
+      <nav id="navMenu">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="section">
-    <div class="about-content">
-      <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container about-container">
+      <img src="myphoto.jpg" alt="Profile" class="profile-pic">
       <div class="about-text">
-        <h1>Hello, I'm <span>Palak</span></h1>
-        <p>I'm a web developer passionate about building interactive and modern websites.</p>
+        <h2>Hello, I'm <span>Palak</span></h2>
+        <p>I’m on my journey to becoming a web developer—shaping my dreams with every line of HTML and CSS.</p>
+        <p class="quote">"Code is not just a language – it's the power to build your own universe"</p>
         <a href="#" class="btn">Download Resume</a>
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>Personal website showcasing my skills.</p>
-      </div>
-      <div class="project-card">
-        <h3>To-Do App</h3>
-        <p>Task manager with local storage support.</p>
-      </div>
-      <div class="project-card">
-        <h3>Weather App</h3>
-        <p>Fetches real-time weather data.</p>
-      </div>
-      <div class="project-card">
-        <h3>Calculator</h3>
-        <p>Basic calculator with dark mode.</p>
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="portfolio.jpg" alt="Portfolio">
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio to showcase my work and skills using HTML, CSS, and JavaScript.</p>
+          <a href="https://palak21.netlify.app" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="todo.jpg" alt="Todo App">
+          <h3>To-Do List App</h3>
+          <p>A simple to-do list app built with vanilla JavaScript and localStorage support.</p>
+          <a href="./todo/to-do.html" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="weather.jpg" alt="Weather App">
+          <h3>Weather App</h3>
+          <p>Built using OpenWeatherMap API, this app displays real-time weather updates.</p>
+          <a href="./weather.html" class="btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <img src="calculator.jpg" alt="Calculator">
+          <h3>Calculator</h3>
+          <p>A simple calculator built using HTML, CSS, and JavaScript for basic operations.</p>
+          <a href="./Calculator.html" class="btn">View Project</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
-  <section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">HTML5</div>
-      <div class="skill-card">CSS3</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">React</div>
-      <div class="skill-card">Git & GitHub</div>
-      <div class="skill-card">VS Code</div>
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-container">
+
+        <div class="skill">
+          <span>HTML5</span>
+          <p class="skill-desc">Building the structure of modern, semantic web pages.</p>
+          <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>CSS3</span>
+          <p class="skill-desc">Designing responsive and stylish layouts with animations.</p>
+          <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>JavaScript</span>
+          <p class="skill-desc">Adding interactivity and functionality with modern ES6+ features.</p>
+          <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>React</span>
+          <p class="skill-desc">Creating reusable, dynamic UI components with React.js.</p>
+          <div class="progress-bar"><div class="progress" style="width: 70%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>Git & GitHub</span>
+          <p class="skill-desc">Managing projects and collaborating using Git workflows.</p>
+          <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        </div>
+
+        <div class="skill">
+          <span>VS Code</span>
+          <p class="skill-desc">Efficient development with powerful extensions and debugging.</p>
+          <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        </div>
+
+      </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send</button>
-    </form>
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p class="sub-text">Feel free to drop a message for collaboration or any queries.</p>
+      <div class="contact-box">
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 Palak Singh | All Rights Reserved</p>
-      <div class="socials">
-        <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+    <div class="container footer-container">
+      <div>
+        <h3>About Me</h3>
+        <p>I'm Palak, a passionate developer dedicated to building clean, responsive, and accessible websites.</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Me</h3>
+        <div class="socials">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       </div>
     </div>
+    <p class="footer-note">©2025 Palak. All Rights Reserved.</p>
   </footer>
 
   <script>
-    const toggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav-links');
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('active');
-    });
+    function toggleMenu() {
+      document.getElementById("navMenu").classList.toggle("show");
+    }
   </script>
 </body>
 </html>
