@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header.main {
-  background-color: #01153E;   /* गहरा भूरा */
+  background-color: #01153e;   /* गहरा भूरा */
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -63,7 +63,14 @@ header .heading {
   width: 180px;
   height: 200px;
   border-radius: 8px;
-  border: 3px solid #a52a2a;
+  border: 3px solid #fff;   /* ✅ White border */
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+}
+
+.about {
+  max-width: 500px;
+  text-align: left;
+  padding: 10px;           /* ✅ text और image में space */
 }
 
 .about h2 span {
@@ -78,11 +85,17 @@ header .heading {
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
+  border: 2px solid #fff;   /* ✅ White border */
 }
 
 /* Projects */
 .main-project {
   padding: 40px 15px;
+}
+
+.main-project h2 {
+  margin-bottom: 25px;     /* ✅ heading और boxes में gap */
+  font-size: 26px;
 }
 
 .My-projects {
@@ -92,11 +105,11 @@ header .heading {
 }
 
 .box {
-  background: #a52a2a;  /* वही लाल-भूरा */
+  background: #a52a2a;
   color: #fff;
   padding: 25px 15px;
   border-radius: 10px;
-  text-align: center;    /* ✅ text center */
+  text-align: center;
 }
 
 .box h3 {
@@ -110,17 +123,23 @@ header .heading {
 
 .view {
   display: inline-block;
-  background: #fff;
-  color: #a52a2a;
+  background: #a52a2a;
+  color: #fff;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
+  border: 2px solid #fff;   /* ✅ White border */
 }
 
 /* Skills */
 .my-skills {
   padding: 40px 15px;
+}
+
+.my-skills h2 {
+  margin-bottom: 25px;     /* ✅ heading और boxes में gap */
+  font-size: 26px;
 }
 
 .myskills {
@@ -134,7 +153,7 @@ header .heading {
   color: #fff;
   padding: 20px;
   border-radius: 8px;
-  text-align: center;   /* ✅ center */
+  text-align: center;
 }
 
 /* Form */
@@ -162,17 +181,18 @@ header .heading {
 
 .button {
   display: inline-block;
-  background: #fff;
-  color: #a52a2a;
+  background: #a52a2a;
+  color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
+  border: 2px solid #fff;   /* ✅ White border */
 }
 
 /* Footer */
 footer {
-  background:  #01153E;
+  background-color: #01153e;
   color: #fff;
   padding: 25px 15px;
   margin-top: 30px;
@@ -223,7 +243,3 @@ footer {
     display: block;
   }
 }
-
-
-
-
