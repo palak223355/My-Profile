@@ -231,7 +231,7 @@ footer {
   text-align: center;
 }
 
-/* Responsive */
+
 @media(max-width:768px){
   .about-main {
     flex-direction: column;
@@ -249,6 +249,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
