@@ -49,8 +49,8 @@ header .heading {
 .about-container {
   padding: 40px 10px;
   border:2px solid #a52a2a;
-  width:400px;
-  height:200px;
+  width:1000px;
+  height:500px;
 }
 
 .about-main {
@@ -126,7 +126,7 @@ header .heading {
 .view {
   display: inline-block;
   background-color:#fdfbd4 ;
-  color: #fff2d9;
+  color: brown;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
@@ -184,7 +184,7 @@ header .heading {
 .button {
   display: inline-block;
   background-color: #fdfbd4;
-  color: #fff2d9;
+  color: brown;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
@@ -246,5 +246,6 @@ footer {
     display: block;
   }
 }
+
 
 
