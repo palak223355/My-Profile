@@ -52,8 +52,8 @@ header .heading {
   width:800px;
   height:300px;
   border-radius:5px;
-  margin-top:10%;
-  margin-left:20%;
+  margin-top:5%;
+  margin-left:23%;
 }
 
 .about-main {
@@ -249,6 +249,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
