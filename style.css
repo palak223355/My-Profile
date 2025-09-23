@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,17 +6,16 @@
   font-family: Arial, sans-serif;
 }
 
-/* Body */
 body {
-  background-color: #fff8e7;   /* हल्का yellowish background */
+  background-color: #fff8e7;  
   color: #333;
   line-height: 1.6;
-  text-align: center;   /* by default center */
+  text-align: center; 
 }
 
-/* Header */
+
 header.main {
-  background-color: #01153e;   /* गहरा भूरा */
+  background-color: #01153e;  
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -46,9 +45,10 @@ header .heading {
   font-size: 26px;
 }
 
-/* About */
+
 .about-container {
   padding: 40px 10px;
+  border:2px solid #a52a2a;
 }
 
 .about-main {
@@ -60,17 +60,17 @@ header .heading {
 }
 
 .about-main img {
-  width: 180px;
+  width: 200px;
   height: 200px;
   border-radius: 8px;
-  border: 3px solid #fff;   /* ✅ White border */
+  border: 3px solid #fff;   
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
 
 .about {
   max-width: 500px;
   text-align: left;
-  padding: 10px;           /* ✅ text और image में space */
+  padding: 10px;           
 }
 
 .about h2 span {
@@ -84,18 +84,18 @@ header .heading {
   background: #a52a2a;
   color: #fff;
   text-decoration: none;
-  border-radius: 6px;
-  border: 2px solid #fff;   /* ✅ White border */
+  border-radius: 8px;
+  border: 2px solid #fff;   
 }
 
-/* Projects */
+
 .main-project {
   padding: 40px 15px;
 }
 
 .main-project h2 {
-  margin-bottom: 25px;     /* ✅ heading और boxes में gap */
-  font-size: 26px;
+  margin-bottom: 40px;    
+  font-size: 30px;
 }
 
 .My-projects {
@@ -107,8 +107,8 @@ header .heading {
 .box {
   background: #a52a2a;
   color: #fff;
-  padding: 25px 15px;
-  border-radius: 10px;
+  padding: 20px 15px;
+  border-radius: 13px;
   text-align: center;
 }
 
@@ -123,23 +123,23 @@ header .heading {
 
 .view {
   display: inline-block;
-  background: #a52a2a;
+  background-color: #a52a2a;
   color: #fff;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #fff;   /* ✅ White border */
+  border: 2px solid #fff;  
 }
 
-/* Skills */
+
 .my-skills {
   padding: 40px 15px;
 }
 
 .my-skills h2 {
-  margin-bottom: 25px;     /* ✅ heading और boxes में gap */
-  font-size: 26px;
+  margin-bottom: 30px;   
+  font-size: 30px;
 }
 
 .myskills {
@@ -152,11 +152,11 @@ header .heading {
   background: #a52a2a;
   color: #fff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
   text-align: center;
 }
 
-/* Form */
+
 .form {
   padding: 40px 15px;
   background: #fff2d9;
@@ -181,7 +181,7 @@ header .heading {
 
 .button {
   display: inline-block;
-  background: #a52a2a;
+  background-color: #fdfbd4;
   color: #fff;
   padding: 10px 20px;
   border-radius: 6px;
@@ -190,7 +190,7 @@ header .heading {
   border: 2px solid #fff;   /* ✅ White border */
 }
 
-/* Footer */
+
 footer {
   background-color: #01153e;
   color: #fff;
@@ -213,6 +213,7 @@ footer {
 .footer ul {
   list-style: none;
   padding: 0;
+  color:white;
 }
 
 .footer li {
@@ -243,3 +244,4 @@ footer {
     display: block;
   }
 }
+
