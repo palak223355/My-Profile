@@ -49,6 +49,8 @@ header .heading {
 .about-container {
   padding: 40px 10px;
   border:2px solid #a52a2a;
+  width:400px;
+  height:200px;
 }
 
 .about-main {
@@ -60,7 +62,7 @@ header .heading {
 }
 
 .about-main img {
-  width: 200px;
+  width: 150px;
   height: 200px;
   border-radius: 8px;
   border: 3px solid #fff;   
@@ -94,7 +96,7 @@ header .heading {
 }
 
 .main-project h2 {
-  margin-bottom: 40px;    
+  margin-bottom: 50px;    
   font-size: 30px;
 }
 
@@ -123,8 +125,8 @@ header .heading {
 
 .view {
   display: inline-block;
-  background-color: #a52a2a;
-  color: #fff;
+  background-color:#fdfbd4 ;
+  color: #fff2d9;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
@@ -138,7 +140,7 @@ header .heading {
 }
 
 .my-skills h2 {
-  margin-bottom: 30px;   
+  margin-bottom: 50px;   
   font-size: 30px;
 }
 
@@ -182,7 +184,7 @@ header .heading {
 .button {
   display: inline-block;
   background-color: #fdfbd4;
-  color: #fff;
+  color: #fff2d9;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
@@ -244,4 +246,5 @@ footer {
     display: block;
   }
 }
+
 
