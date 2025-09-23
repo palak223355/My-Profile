@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header.main {
-  background: #4b2e2e;   /* गहरा भूरा */
+  background: #o8o838;   /* गहरा भूरा */
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -223,3 +223,4 @@ footer {
     display: block;
   }
 }
+
