@@ -49,8 +49,10 @@ header .heading {
 .about-container {
   padding: 40px 10px;
   border:2px solid #a52a2a;
-  width:1000px;
-  height:500px;
+  width:900px;
+  height:400px;
+  border-radius:5px;
+  margin-left:30%;
 }
 
 .about-main {
@@ -246,6 +248,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
