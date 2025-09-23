@@ -172,7 +172,7 @@ header .heading {
 
 /* Footer */
 footer {
-  background: #4b2e2e;
+  background:  #01153E;
   color: #fff;
   padding: 25px 15px;
   margin-top: 30px;
@@ -223,6 +223,7 @@ footer {
     display: block;
   }
 }
+
 
 
 
