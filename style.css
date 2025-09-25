@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +12,7 @@ body {
   text-align: center; 
 }
 
-
+/* ===== HEADER ===== */
 header.main {
   background-color: #01153e;  
   color: #fff;
@@ -21,11 +20,19 @@ header.main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 header .heading {
   font-size: 24px;
   font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+header .heading:hover {
+  color: #ffd27f;
 }
 
 .nav-main a {
@@ -33,27 +40,39 @@ header .heading {
   margin: 0 12px;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s, transform 0.3s;
 }
 
 .nav-main a:hover {
   color: #ffd27f;
+  transform: scale(1.1);
 }
 
 .hello {
   display: none;
   cursor: pointer;
   font-size: 26px;
+  transition: transform 0.3s;
 }
 
+.hello:hover {
+  transform: rotate(90deg);
+}
 
+/* ===== ABOUT SECTION ===== */
 .about-container {
   padding: 40px 10px;
-  border:2px solid #a52a2a;
-  width:800px;
-  height:300px;
-  border-radius:5px;
-  margin-top:5%;
-  margin-left:23%;
+  border: 2px solid #a52a2a;
+  max-width: 900px;
+  border-radius: 10px;
+  margin: 5% auto;
+  background: #fff;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.about-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
 .about-main {
@@ -70,12 +89,18 @@ header .heading {
   border-radius: 8px;
   border: 3px solid #fff;   
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.about-main img:hover {
+  transform: scale(1.1) rotate(3deg);
 }
 
 .about {
   max-width: 500px;
   text-align: left;
   padding: 10px;           
+  animation: fadeInUp 1.2s ease-in-out;
 }
 
 .about h2 span {
@@ -91,15 +116,22 @@ header .heading {
   text-decoration: none;
   border-radius: 8px;
   border: 2px solid #fff;   
+  transition: all 0.3s ease-in-out;
 }
 
+.anchor:hover {
+  background: #fff;
+  color: #a52a2a;
+  border-color: #a52a2a;
+}
 
+/* ===== PROJECTS SECTION ===== */
 .main-project {
   padding: 40px 15px;
 }
 
-.main-project h2 {
-  margin-bottom: 50px;    
+.main-project h3 {
+  margin-bottom: 30px;    
   font-size: 30px;
 }
 
@@ -115,35 +147,38 @@ header .heading {
   padding: 20px 15px;
   border-radius: 13px;
   text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.box h3 {
-  margin-bottom: 10px;
-}
-
-.box p {
-  font-size: 14px;
-  margin-bottom: 12px;
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
 .view {
   display: inline-block;
-  background-color:#fdfbd4 ;
+  background-color:#fdfbd4;
   color: brown;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
   border: 2px solid #fff;  
+  transition: background 0.3s, color 0.3s;
 }
 
+.view:hover {
+  background: brown;
+  color: #fff;
+}
 
+/* ===== SKILLS SECTION ===== */
 .my-skills {
   padding: 40px 15px;
 }
 
-.my-skills h2 {
-  margin-bottom: 50px;   
+.my-skills h4.skill {
+  margin-bottom: 30px;   
   font-size: 30px;
 }
 
@@ -159,9 +194,15 @@ header .heading {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  transition: transform 0.3s;
 }
 
+.myskills div:hover {
+  transform: scale(1.05);
+  background: #7b1e1e;
+}
 
+/* ===== FORM SECTION ===== */
 .form {
   padding: 40px 15px;
   background: #fff2d9;
@@ -174,6 +215,7 @@ header .heading {
   color: #fff;
   padding: 20px;
   border-radius: 10px;
+  animation: fadeInUp 1.2s ease-in-out;
 }
 
 .input1, .input2, .input3 {
@@ -182,6 +224,12 @@ header .heading {
   margin: 8px 0;
   border: none;
   border-radius: 6px;
+  transition: box-shadow 0.3s;
+}
+
+.input1:focus, .input2:focus, .input3:focus {
+  box-shadow: 0 0 6px #ffd27f;
+  outline: none;
 }
 
 .button {
@@ -192,10 +240,16 @@ header .heading {
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #fff;   /* ✅ White border */
+  border: 2px solid #fff;
+  transition: all 0.3s;
 }
 
+.button:hover {
+  background: brown;
+  color: #fff;
+}
 
+/* ===== FOOTER ===== */
 footer {
   background-color: #01153e;
   color: #fff;
@@ -223,6 +277,12 @@ footer {
 
 .footer li {
   margin: 5px 0;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer li:hover {
+  color: #ffd27f;
+  transform: translateX(5px);
 }
 
 .note {
@@ -231,7 +291,7 @@ footer {
   text-align: center;
 }
 
-
+/* ===== MEDIA QUERY ===== */
 @media(max-width:768px){
   .about-main {
     flex-direction: column;
@@ -248,11 +308,20 @@ footer {
   .hello {
     display: block;
   }
+  .about-container {
+    width: 90%;
+    height: auto;
+  }
 }
 
-
-
-
-
-
-
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
