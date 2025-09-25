@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #fff8e7;  
+  background-color: #FFF8E7;  
   color: #333;
   line-height: 1.6;
   text-align: center; 
@@ -14,7 +14,7 @@ body {
 
 /* ===== HEADER ===== */
 header.main {
-  background-color: #01153e;  
+  background-color: #4A148C;  
   color: #fff;
   padding: 15px 20px;
   display: flex;
@@ -32,7 +32,7 @@ header .heading {
 }
 
 header .heading:hover {
-  color: #ffd27f;
+  color: #FFCA28;
 }
 
 .nav-main a {
@@ -44,8 +44,8 @@ header .heading:hover {
 }
 
 .nav-main a:hover {
-  color: #ffd27f;
-  transform: scale(1.1);
+  color: #FFCA28;
+  transform: scale(1.05);
 }
 
 .hello {
@@ -62,7 +62,7 @@ header .heading:hover {
 /* ===== ABOUT SECTION ===== */
 .about-container {
   padding: 40px 10px;
-  border: 2px solid #a52a2a;
+  border: 2px solid #4A148C;
   max-width: 900px;
   border-radius: 10px;
   margin: 5% auto;
@@ -104,25 +104,24 @@ header .heading:hover {
 }
 
 .about h2 span {
-  color: #a52a2a;
+  color: #4A148C;
 }
 
 .anchor {
   display: inline-block;
   margin-top: 15px;
   padding: 10px 18px;
-  background: #a52a2a;
+  background: #4A148C;
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
-  border: 2px solid #fff;   
+  border: none;
   transition: all 0.3s ease-in-out;
 }
 
 .anchor:hover {
-  background: #fff;
-  color: #a52a2a;
-  border-color: #a52a2a;
+  background: #FFCA28;
+  color: #4A148C;
 }
 
 /* ===== PROJECTS SECTION ===== */
@@ -142,34 +141,35 @@ header .heading:hover {
 }
 
 .box {
-  background: #a52a2a;
+  background: #4A148C;
   color: #fff;
   padding: 20px 15px;
   border-radius: 13px;
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
 
 .box:hover {
+  background: #6A1B9A;
   transform: translateY(-10px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
 .view {
   display: inline-block;
-  background-color:#fdfbd4;
-  color: brown;
+  background-color: #FFCA28;
+  color: #4A148C;
   padding: 8px 15px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #fff;  
+  border: none;
   transition: background 0.3s, color 0.3s;
 }
 
 .view:hover {
-  background: brown;
-  color: #fff;
+  background: #fff;
+  color: #4A148C;
 }
 
 /* ===== SKILLS SECTION ===== */
@@ -189,17 +189,17 @@ header .heading:hover {
 }
 
 .myskills div {
-  background: #a52a2a;
+  background: #4A148C;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s, background 0.3s;
 }
 
 .myskills div:hover {
+  background: #6A1B9A;
   transform: scale(1.05);
-  background: #7b1e1e;
 }
 
 /* ===== FORM SECTION ===== */
@@ -211,7 +211,7 @@ header .heading:hover {
 .form-box {
   max-width: 400px;
   margin: auto;
-  background: #a52a2a;
+  background: #4A148C;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -228,30 +228,30 @@ header .heading:hover {
 }
 
 .input1:focus, .input2:focus, .input3:focus {
-  box-shadow: 0 0 6px #ffd27f;
+  box-shadow: 0 0 6px #FFCA28;
   outline: none;
 }
 
 .button {
   display: inline-block;
-  background-color: #fdfbd4;
-  color: brown;
+  background-color: #FFCA28;
+  color: #4A148C;
   padding: 10px 20px;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #fff;
+  border: none;
   transition: all 0.3s;
 }
 
 .button:hover {
-  background: brown;
-  color: #fff;
+  background: #fff;
+  color: #4A148C;
 }
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: #01153e;
+  background-color: #4A148C;
   color: #fff;
   padding: 25px 15px;
   margin-top: 30px;
@@ -266,7 +266,7 @@ footer {
 
 .footer h4 {
   margin-bottom: 10px;
-  color: #ffd27f;
+  color: #FFCA28;
 }
 
 .footer ul {
@@ -281,7 +281,7 @@ footer {
 }
 
 .footer li:hover {
-  color: #ffd27f;
+  color: #FFCA28;
   transform: translateX(5px);
 }
 
@@ -299,7 +299,7 @@ footer {
   .nav-main {
     display: none;
     flex-direction: column;
-    background: #4b2e2e;
+    background: #6A1B9A;
     padding: 15px;
   }
   .nav-main.show {
