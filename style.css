@@ -1,4 +1,4 @@
-/* Universal */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Body */
+
 body {
   background: linear-gradient(135deg, #1a1a2e, #162447); /* Dark blue-purple gradient */
   color: #FFFFFF;
@@ -14,9 +14,9 @@ body {
   text-align: center;
 }
 
-/* Header */
+
 header.main {
-  background: rgba(75, 0, 130, 0.95); /* Deep purple */
+  background: rgba(75, 0, 130, 0.95); 
   backdrop-filter: blur(10px);
   color: #fff;
   padding: 15px 20px;
@@ -51,7 +51,7 @@ header .heading {
   color: #00FFFF;
 }
 
-/* About Section */
+
 .about-container {
   margin: 50px auto;
   padding: 50px 30px;
@@ -128,7 +128,7 @@ header .heading {
   box-shadow: 0 0 25px #FF00FF, 0 0 35px #00FFFF;
 }
 
-/* Projects */
+
 .main-project {
   padding: 50px 15px;
 }
@@ -175,7 +175,6 @@ header .heading {
   transform: scale(1.05);
 }
 
-/* Skills */
 .my-skills {
   padding: 50px 15px;
 }
@@ -205,7 +204,7 @@ header .heading {
   box-shadow: 0 0 20px rgba(255,0,255,0.6);
 }
 
-/* Contact Form */
+
 .form {
   padding: 50px 15px;
   background: rgba(75, 0, 130, 0.6);
@@ -245,7 +244,7 @@ header .heading {
   box-shadow: 0 0 15px #FF00FF;
 }
 
-/* Footer */
+
 footer {
   background: rgba(75, 0, 130, 0.95); /* Same as header */
   color: #fff;
@@ -277,7 +276,7 @@ footer {
   text-align: center;
 }
 
-/* Responsive */
+
 @media(max-width:768px){
   .about-main {
     flex-direction: column;
@@ -299,4 +298,5 @@ footer {
     display: block;
   }
 }
+
 
