@@ -47,3 +47,66 @@ footer{background:#0d1117;color:#fff;padding:50px 20px;margin-top:60px;}
 .myskills div{background:#f7f9fc;padding:20px;border-radius:14px;transition:0.3s;box-shadow:0 4px 20px rgba(0,0,0,0.05);}
 .myskills div:hover{transform:translateY(-6px);}
 
+
+/* Modern Professional Full Page CSS */
+body {
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:#f5f7fa; /* light modern background */
+  color:#222; /* dark text for better contrast */
+  transition:background 0.4s ease;
+}
+header, nav {
+  width:100%;
+  position:sticky;
+  top:0;
+  background:rgba(255,255,255,0.8); backdrop-filter:blur(15px);
+  backdrop-filter:blur(10px);
+  padding:15px 30px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.4);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+}
+nav ul li a {
+  color:#333;
+  font-size:16px;
+  text-decoration:none;
+  margin:0 16px;
+  transition:0.3s;
+}
+nav ul li a:hover {
+  color:#6a11cb;
+  transform:scale(1.1) translateY(-2px);
+  text-shadow:0 0 8px #6a11cb;
+}
+section {
+  padding: 80px 10%;
+  transition: 0.3s ease;
+}
+.skills-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.skills-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 55px rgba(0,0,0,0.15);
+}
+button, .btn {
+  padding: 12px 28px;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg,#ff8a00,#e52e71);
+  color: #fff;
+  transition: 0.3s ease;
+}
+button:hover, .btn:hover {
+  transform: scale(1.1);
+  filter: brightness(1.12);
+}
