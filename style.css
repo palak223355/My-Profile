@@ -8,7 +8,7 @@
 
 
 body {
-  background: linear-gradient(135deg, #1a1a2e, #162447); /* Dark blue-purple gradient */
+  background: linear-gradient(135deg, #1a1a2e, #162447);
   color: #FFFFFF;
   line-height: 1.6;
   text-align: center;
@@ -298,5 +298,6 @@ footer {
     display: block;
   }
 }
+
 
 
