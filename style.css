@@ -25,3 +25,10 @@ header .heading{font-size:26px;font-weight:700;color:#0066ff;}
 .box:hover{transform:translateY(-6px);}
 .view{display:inline-block;margin-top:12px;padding:10px 18px;background:#ff6600;color:#fff;border-radius:6px;text-decoration:none;transition:0.3s;}
 .view:hover{background:#cc5200;transform:scale(1.05);}
+
+/* Skills */
+.my-skills{padding:60px 20px;}
+.skill{font-size:28px;margin-bottom:30px;color:#0066ff;}
+.myskills{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+.myskills div{background:#f7f9fc;padding:20px;border-radius:14px;transition:0.3s;box-shadow:0 4px 20px rgba(0,0,0,0.05);}
+.myskills div:hover{transform:translateY(-6px);}
