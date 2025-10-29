@@ -300,10 +300,11 @@ footer {
 }
 /* Updated modern clean color theme */
 body {
-  background: #0d1117;
-  color: #1a1a1a;
+  background: #ffffff;
+  color: #222222;
   line-height: 1.6;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 header.main {
   background: #0d1117;
@@ -338,6 +339,8 @@ header .heading {
   background: #0d1117;
 }
 /* more sections can be updated similarly */
+
+
 
 
 
