@@ -298,6 +298,47 @@ footer {
     display: block;
   }
 }
+   /* Updated modern clean color theme */
+body {
+  background: #f8f9fb;
+  color: #1a1a1a;
+  line-height: 1.6;
+  text-align: center;
+}
+header.main {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+header .heading {
+  color: #0066ff;
+}
+.nav-main a {
+  color: #1a1a1a;
+}
+.nav-main a:hover {
+  color: #0066ff;
+  text-shadow: none;
+}
+.about-container {
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  color: #333;
+}
+.about h2 {
+  color: #0066ff;
+}
+.about h2 span {
+  color: #ff6600;
+}
+.anchor {
+  background: linear-gradient(90deg,#0066ff,#ff6600);
+  color: #ffffff;
+}
+.anchor:hover {
+  background:#ff6600;
+}
+/* more sections can be updated similarly */
+
 
 
 
