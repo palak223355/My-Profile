@@ -126,7 +126,7 @@ header .heading{
   .hello{display:block;}
 }
 
-/* Projects */
+
 .main-project{
   padding:60px 20px;
 }
@@ -142,33 +142,40 @@ header .heading{
 }
 
 .box{
-  background:#ffffff;
+  background:#f7f4ff;
   padding:15px;
   color:#333333;
   border-radius:14px;
   transition:0.3s;
   box-shadow:0 4px 20px rgba(0,0,0,0.05);
-}
 
 .box:hover{
   transform:translateY(-6px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.08);
 }
+
+
 
 .view{
   display:inline-block;
   margin-top:12px;
   padding:8px 15px;
   background:#ff7b00;
-  color:#fff;
+  color:#ffffff;
   border-radius:6px;
   text-decoration:none;
   transition:0.3s;
 }
 
 .view:hover{
-  background:#cc6200;
+  background:#e06600;
   transform:scale(1.05);
+ 
 }
+
+
+
+
 
 
 .form{
@@ -209,8 +216,8 @@ header .heading{
 }
 
 .form-box .button:hover{
-  
-  color:#3d3d99;
+   background-color: #3d3d99;
+  color:#ffffff;
 }
 
 
@@ -272,6 +279,7 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
