@@ -6,7 +6,7 @@
  }
 
 body{
-  background:#f7f4ff;
+  background:#f6f7fb;
   color:#272757;
   text-align:center;
   line-height:1.6;
@@ -269,6 +269,7 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
