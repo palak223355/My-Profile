@@ -210,7 +210,7 @@ h3{
 }
 
 .form-box .button{
-  background:#272757;
+  background:#4a6cff;
   color:#ffffff;
   padding:12px 25px;
   border:none;
@@ -284,6 +284,7 @@ h3{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
