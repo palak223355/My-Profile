@@ -148,6 +148,7 @@ header .heading{
   border-radius:14px;
   transition:0.3s;
   box-shadow:0 4px 20px rgba(0,0,0,0.05);
+}
 
 .box:hover{
   transform:translateY(-6px);
@@ -172,10 +173,6 @@ header .heading{
   transform:scale(1.05);
  
 }
-
-
-
-
 
 
 .form{
@@ -221,7 +218,7 @@ header .heading{
 }
 
 
-footer{
+.footer{
   background:#272757;
   color:#fff;
   padding:50px 20px;
@@ -279,6 +276,7 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
