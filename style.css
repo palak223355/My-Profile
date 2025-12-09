@@ -131,16 +131,24 @@ header .heading{
   padding:60px 20px;
 }
 .main-project h3{
-  font-size:28px;margin-bottom:30px;color:#1e90ff;
+  font-size:28px;
+  margin-bottom:30px;
+  color:#1e90ff;
 }
-
+h3{
+  color:#272757;
+}.h3:hover{
+  color:#4a6cff;
+}
 
 .My-projects{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
   gap:20px;
 }
-
+.my{
+  color:#ffffff;
+}
 .box{
   background:#f7f4ff;
   padding:15px;
@@ -161,7 +169,7 @@ header .heading{
   display:inline-block;
   margin-top:12px;
   padding:8px 15px;
-  background:#ff7b00;
+  background:#4a6cff;
   color:#ffffff;
   border-radius:6px;
   text-decoration:none;
@@ -169,7 +177,7 @@ header .heading{
 }
 
 .view:hover{
-  background:#e06600;
+  background:#2f4dff;
   transform:scale(1.05);
  
 }
@@ -276,6 +284,7 @@ header .heading{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
