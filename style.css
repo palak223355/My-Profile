@@ -16,7 +16,7 @@ header.main{
   position:sticky;
   top:0;
   z-index:1000;
-  background:#0057ff;
+  background:#272757;
   padding:15px 20px;
   display:flex;
   justify-content:space-between;
@@ -28,7 +28,7 @@ header.main{
 header .heading{
   font-size:26px;
   font-weight:700;
-  color:#ffffff; /* NEW PRIMARY */
+  color:#ffffff; 
 }
 
 .nav-main a{
@@ -40,7 +40,7 @@ header .heading{
 }
 
 .nav-main a:hover{
-  color:#ff7b00; /* NEW SECONDARY */
+  color:#ff7b00;
 }
 
 .hello{
@@ -210,7 +210,7 @@ header .heading{
 
 
 footer{
-  background:#0057ff;
+  background:#272757;
   color:#fff;
   padding:50px 20px;
   margin-top:60px;
@@ -267,5 +267,6 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
