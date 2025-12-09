@@ -22,7 +22,7 @@ header.main{
   justify-content:space-between;
   align-items:center;
   box-shadow:0 2px 7px rgba(0,0,0,0.1);
-  COLOR:#FFFFFF
+  COLOR:#ffffff;
   transition:0.3s;
 }
 
@@ -268,6 +268,7 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
