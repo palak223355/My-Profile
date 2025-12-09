@@ -6,7 +6,7 @@
  }
 
 body{
-  background:#ffffff;
+  background:#f7f4ff;
   color:#272757;
   text-align:center;
   line-height:1.6;
@@ -142,8 +142,9 @@ header .heading{
 }
 
 .box{
-  background:#f7f9fc;
+  background:#ffffff;
   padding:15px;
+  color:#333333;
   border-radius:14px;
   transition:0.3s;
   box-shadow:0 4px 20px rgba(0,0,0,0.05);
@@ -248,7 +249,7 @@ footer{
 .skill{
   font-size:28px;
   margin-bottom:30px;
-  color:#00c2ff; 
+  color:#333333; 
 }
 
 .myskills{
@@ -258,7 +259,7 @@ footer{
 }
 
 .myskills div{
-  background:#f7f9fc;
+  background:#f7f4ff;
   padding:20px;
   border-radius:14px;
   transition:0.3s;
@@ -268,6 +269,7 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
