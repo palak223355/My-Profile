@@ -56,14 +56,17 @@ header .heading{
   padding:50px 30px;
   max-width:900px;
   border-radius:16px;
-  background:#f7f9fc;
+  background:#ffffff;
   box-shadow:0 15px 40px rgba(0,0,0,0.08);
   transition:0.3s;
 }
 
 .about-container:hover{
   transform:translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0,0,0,0.1);
 }
+
+
 
 .about-main{
   display:flex;
@@ -90,17 +93,17 @@ header .heading{
   font-size:30px;
   margin-bottom:18px;
   font-weight:700;
-  color:#1e90ff; /* PRIMARY */
+  color:#1e90ff;
 }
 
 .about h2 span{
-  color:#ff7b00; /* SECONDARY */
+  color:#ff7b00; 
 }
 
 .about p{
   font-size:17px;
   margin-bottom:20px;
-  color:#444;
+  color:#1f1f1f;
 }
 
 .anchor{
@@ -116,7 +119,9 @@ header .heading{
 }
 
 .anchor:hover{
-  background:#106dcc;
+  background: #2f4dff;
+}
+
 }
 
 @media(max-width:768px){
@@ -284,6 +289,7 @@ h3{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
