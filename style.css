@@ -126,8 +126,13 @@ header .heading{
 }
 
 /* Projects */
-.main-project{padding:60px 20px;}
-.main-project h3{font-size:28px;margin-bottom:30px;color:#1e90ff;} /* PRIMARY */
+.main-project{
+  padding:60px 20px;
+}
+.main-project h3{
+  font-size:28px;margin-bottom:30px;color:#1e90ff;
+}
+
 
 .My-projects{
   display:grid;
@@ -137,7 +142,7 @@ header .heading{
 
 .box{
   background:#f7f9fc;
-  padding:25px;
+  padding:15px;
   border-radius:14px;
   transition:0.3s;
   box-shadow:0 4px 20px rgba(0,0,0,0.05);
@@ -258,3 +263,4 @@ footer{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
