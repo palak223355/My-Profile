@@ -141,9 +141,7 @@ header .heading{
   color:#1e90ff;
 }
 h3{
-  color:##ff7b007;
-}.h3:hover{
-  color:#4a6cff;
+  color:##ff7b00;
 }
 
 .My-projects{
@@ -229,7 +227,9 @@ h3{
    background-color: #3d3d99;
   color:#ffffff;
 }
-
+.headingget{
+  color:#ff7b00;
+}
 
 .footer{
   background:#272757;
@@ -292,6 +292,7 @@ h4{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
