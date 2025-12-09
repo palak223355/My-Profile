@@ -155,7 +155,7 @@ h3{
   color:#ffffff;
 }
 .box{
-  background:#f7f4ff;
+  background:#ffffff;
   padding:15px;
   color:#333333;
   border-radius:14px;
@@ -279,7 +279,7 @@ h3{
 }
 
 .myskills div{
-  background:#f7f4ff;
+  background:#ffffff;
   padding:20px;
   border-radius:14px;
   transition:0.3s;
@@ -289,6 +289,7 @@ h3{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
