@@ -141,7 +141,7 @@ header .heading{
   color:#1e90ff;
 }
 h3{
-  color:#272757;
+  color:##ff7b007;
 }.h3:hover{
   color:#4a6cff;
 }
@@ -152,7 +152,7 @@ h3{
   gap:20px;
 }
 .my{
-  color:#ffffff;
+  color:#ff7b00;
 }
 .box{
   background:#ffffff;
@@ -287,10 +287,12 @@ h3{
 }
 h4{
   color:#ff7b00;
+  font-size:30px;
 }
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
