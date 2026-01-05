@@ -332,8 +332,8 @@ h4{
         flex-direction: column;
         position: absolute;
         top: 65px; /* Header ki height ke hisab se */
-        left: 0;
-        width: 50%;
+        left: 60%;
+        width: 40%;
         background: #272757;
         padding: 8px;
         z-index: 999;
@@ -350,6 +350,7 @@ h4{
         font-size: 18px;
     }
 }
+
 
 
 
