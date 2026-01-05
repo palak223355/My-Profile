@@ -66,8 +66,6 @@ header .heading{
   box-shadow: 0 18px 45px rgba(0,0,0,0.1);
 }
 
-
-
 .about-main{
   display:flex;
   justify-content:center;
@@ -139,7 +137,7 @@ header .heading{
   .hello{
     display:block;
   }
-
+}
 .main-project{
   padding:60px 20px;
 }
@@ -342,6 +340,7 @@ h4{
     text-align: center;
   }
 }
+
 
 
 
