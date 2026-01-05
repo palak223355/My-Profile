@@ -125,10 +125,22 @@ header .heading{
 }
 
 @media(max-width:768px){
-  .about-main{flex-direction:column;text-align:center;}
-  .nav-main{display:none;flex-direction:column;background:#ffffff;padding:15px;}
-  .nav-main.show{display:flex;}
-  .hello{display:block;}
+  .about-main{
+    flex-direction:column;
+    text-align:center;
+  }
+  .nav-main{
+    display:none;
+    flex-direction:column;
+    background:#ffffff;
+    padding:15px;
+  }
+  .nav-main.show{
+    display:flex;
+  }
+  .hello{
+    display:none;
+  }
 }
 
 
@@ -292,6 +304,7 @@ h4{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
