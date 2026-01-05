@@ -316,6 +316,37 @@ h4{
 
 
 
+@media (max-width: 768px) {
+    .hello {
+        display: block !important; /* Mobile par button dikhega */
+        color: #38bdf8;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .nav-main {
+        display: none; /* Default mein menu band rahega */
+        flex-direction: column;
+        position: absolute;
+        top: 65px; /* Header ki height ke hisab se */
+        left: 0;
+        width: 100%;
+        background: #1e293b;
+        padding: 20px 0;
+        z-index: 999;
+        border-bottom: 3px solid #38bdf8;
+    }
+
+    /* Jab JS toggle karega tab ye dikhega */
+    .nav-main.show {
+        display: flex !important;
+    }
+
+    .nav-main a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+}
 
 
 
