@@ -271,7 +271,10 @@ h3{
   font-size:18px;
 }
 
-.footer ul{list-style:none;padding:0;}
+.footer ul{
+  list-style:none;
+  padding:0;
+}
 
 .footer li{
   margin-bottom:8px;
@@ -331,8 +334,8 @@ h4{
         top: 65px; /* Header ki height ke hisab se */
         left: 0;
         width: 100%;
-        background: #1e293b;
-        padding: 20px 0;
+        background: #272757;
+        padding: 10px 0;
         z-index: 999;
         border-bottom: 3px solid #38bdf8;
     }
@@ -347,6 +350,7 @@ h4{
         font-size: 18px;
     }
 }
+
 
 
 
