@@ -138,9 +138,17 @@ header .heading{
   .nav-main.show{
     display:flex;
   }
-  .hello{
-    display:none;
-  }
+  .hello {
+
+        display: block ;
+
+        color: #38bdf8;
+
+        font-size: 30px;
+
+        cursor: pointer;
+
+    }
 }
 
 
@@ -304,6 +312,7 @@ h4{
 .myskills div:hover{
   transform:translateY(-6px);
 }
+
 
 
 
