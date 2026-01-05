@@ -293,6 +293,47 @@ h4{
   transform:translateY(-6px);
 }
 
+@media(max-width:768px) {
+  /* Header adjustments */
+  header.main {
+    padding: 10px 20px;
+  }
+
+  
+  .nav-main {
+    display: none; 
+    flex-direction: column;
+    background: #272757; 
+    position: absolute;
+    top: 60px; 
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+
+ 
+  .nav-main.show {
+    display: flex;
+  }
+
+  .nav-main a {
+    margin: 15px 0;
+    font-size: 18px;
+    display: block;
+  }
+
+  .hello {
+    display: block;
+    color: #ffffff; 
+  }
+
+  .about-main {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 
 
