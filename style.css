@@ -333,11 +333,11 @@ h4{
         position: absolute;
         top: 65px; /* Header ki height ke hisab se */
         left: 0;
-        width: 100%;
+        width: 50%;
         background: #272757;
         padding: 8px;
         z-index: 999;
-        border-bottom: 3px solid #38bdf8;
+        border-bottom: 2px solid #38bdf8;
     }
 
     /* Jab JS toggle karega tab ye dikhega */
@@ -350,6 +350,7 @@ h4{
         font-size: 18px;
     }
 }
+
 
 
 
