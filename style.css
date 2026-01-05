@@ -122,15 +122,23 @@ header .heading{
   background: #2f4dff;
 }
 
-}
-
 @media(max-width:768px){
-  .about-main{flex-direction:column;text-align:center;}
-  .nav-main{display:none;flex-direction:column;background:#ffffff;padding:15px;}
-  .nav-main.show{display:flex;}
-  .hello{display:block;}
-}
-
+  .about-main{
+    flex-direction:column;
+    text-align:center;
+  }
+  .nav-main{
+    display:none;
+    flex-direction:column;
+    background:#ffffff;
+    padding:15px;
+  }
+  .nav-main.show{
+    display:flex;
+  }
+  .hello{
+    display:block;
+  }
 
 .main-project{
   padding:60px 20px;
@@ -294,7 +302,7 @@ h4{
 }
 
 @media(max-width:768px) {
-  /* Header adjustments */
+
   header.main {
     padding: 10px 20px;
   }
@@ -334,6 +342,7 @@ h4{
     text-align: center;
   }
 }
+
 
 
 
